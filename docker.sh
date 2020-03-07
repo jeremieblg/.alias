@@ -1,0 +1,8 @@
+alias dlogs="docker logs -f"
+alias dup="docker-compose up -d"
+alias ddown="docker-compose down"
+alias dre="ddown | dup"
+alias dexe="docker exec -it $0 /bin/sh"
+alias dps="docker-compose ps"
+alias dexb="docker-compose exec -it $1 /bin/bash"
+alias dext="docker-compose up test"
